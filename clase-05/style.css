@@ -108,3 +108,16 @@ body{
     cursor: pointer;
     font-size: 16px;
 }
+.footer{
+    margin-top: 40px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+
+    background: linear-gradient(
+        to right,
+        hsl(220,70%,45%),
+        hsl(35,90%,55%),
+        hsl(160,60%,40%)
+    );
+}
