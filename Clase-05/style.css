@@ -1,0 +1,27 @@
+.hero{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.10),
+        rgba(0,0,0,0.72)
+    ),
+    url("https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    min-height: 480px;
+    width: 100%;
+    color: white;
+    padding: 48px;
+
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+.btn-reservar{
+    display: inline-block;
+    background: radial-gradient(circle, #af8d3c, #857004);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 6px;
+}

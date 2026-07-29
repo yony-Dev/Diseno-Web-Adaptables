@@ -1,0 +1,42 @@
+/*Aplicar Grid al contenedor*/
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
+
+.encabezado{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    border-bottom: 3px solid rgba(23, 23, 44, 0.293);
+    grid-column: 1/13;
+    background-color:rgb(245, 225, 43);
+}
+
+.tarjeta{
+    grid-column: span 4;
+    background-color: rgb(238, 240, 197);
+    color: black;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+button{
+    background-color: black;
+    color: yellow;
+    border-radius: 5px;
+    padding: 4px 8px;
+    border:none;
+}
+img{
+    height: 200px;
+}
+.footer{
+    grid-column: 1/13;
+    color: rgb(245, 225, 43);
+    background-color: rgb(120, 123, 11);
+    font-size: 20px;
+}
